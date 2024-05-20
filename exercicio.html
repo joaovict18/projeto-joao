@@ -1,0 +1,48 @@
+<!-- Nome do arquivo HTML poderia ter sido também index -->
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Exercício</title>
+    <style>
+        .caixa {
+            height: 200px;
+            width: 200px;
+            padding: 20px;
+        }
+
+        body {
+            margin: 0;
+        }
+
+        #primeiraCaixa {
+            border: solid black 10px;
+            background-color: cadetblue;
+        }
+        /* Para calcular a margem esquerda, deve-se somar o tamanho da caixa, o padding duas vezes, visto que está presente tanto na direita quando na esquerda e também o tamanho da borda, seguindo a mesma ideia do padding */
+        #segundaCaixa {
+            border: solid black 20px;
+            margin-left: 260px;
+            background-color: darkorange;
+        }
+
+        #terceiraCaixa {
+            border: solid black 10px;
+            margin-left: 540px;
+            margin-bottom: 5px;
+            background-color: forestgreen;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <div class="caixa" id="primeiraCaixa">
+            <h1>João Victor</h1> <br />
+        </div>
+        <div class="caixa" id="segundaCaixa"><br /></div> 
+        <div class="caixa" id="terceiraCaixa"></div>
+    </main>
+</body>
+</html>
+
+<!-- Para cada classe das DIVs, poderia ter criado respectivamente com os nomes: top-container, middle-container e bottom-cotainer -->
